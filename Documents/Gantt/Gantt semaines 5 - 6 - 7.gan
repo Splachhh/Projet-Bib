@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-01-18" view-index="0" gantt-divider-location="417" resource-divider-location="503" version="2.0" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-01-18" view-index="1" gantt-divider-location="417" resource-divider-location="503" version="2.0" locale="fr">
     <description><![CDATA[Projet Bib2 - Jeu Vidéo]]></description>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Nom" width="58" order="0"/>
@@ -6,8 +6,8 @@
         <field id="tpd5" name="Date de fin" width="18" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="67" order="0"/>
-        <field id="1" name="Rôle par défaut" width="32" order="1"/>
+        <field id="0" name="Nom" width="50" order="0"/>
+        <field id="1" name="Rôle par défaut" width="49" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -95,29 +95,29 @@
         <resource id="9" name="Grégory" function="4" contacts="" phone=""/>
     </resources>
     <allocations>
-        <allocation task-id="49" resource-id="5" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="49" resource-id="5" function="Default:1" responsible="true" load="20.0"/>
         <allocation task-id="13" resource-id="5" function="Default:1" responsible="true" load="50.0"/>
         <allocation task-id="14" resource-id="5" function="Default:1" responsible="true" load="50.0"/>
         <allocation task-id="147" resource-id="5" function="Default:1" responsible="false" load="50.0"/>
         <allocation task-id="145" resource-id="5" function="Default:1" responsible="false" load="50.0"/>
         <allocation task-id="98" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="99" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="49" resource-id="6" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="49" resource-id="6" function="1" responsible="false" load="20.0"/>
         <allocation task-id="13" resource-id="6" function="1" responsible="true" load="50.0"/>
         <allocation task-id="14" resource-id="6" function="1" responsible="true" load="50.0"/>
         <allocation task-id="147" resource-id="6" function="1" responsible="true" load="50.0"/>
         <allocation task-id="145" resource-id="6" function="1" responsible="true" load="50.0"/>
         <allocation task-id="140" resource-id="6" function="1" responsible="true" load="100.0"/>
         <allocation task-id="183" resource-id="6" function="1" responsible="true" load="100.0"/>
-        <allocation task-id="49" resource-id="7" function="2" responsible="false" load="50.0"/>
+        <allocation task-id="49" resource-id="7" function="2" responsible="false" load="20.0"/>
         <allocation task-id="12" resource-id="7" function="2" responsible="true" load="100.0"/>
         <allocation task-id="26" resource-id="7" function="2" responsible="true" load="100.0"/>
         <allocation task-id="16" resource-id="7" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="49" resource-id="8" function="3" responsible="false" load="50.0"/>
+        <allocation task-id="49" resource-id="8" function="3" responsible="false" load="20.0"/>
         <allocation task-id="89" resource-id="8" function="3" responsible="true" load="100.0"/>
         <allocation task-id="97" resource-id="8" function="3" responsible="true" load="100.0"/>
         <allocation task-id="197" resource-id="8" function="3" responsible="true" load="100.0"/>
-        <allocation task-id="49" resource-id="9" function="4" responsible="false" load="50.0"/>
+        <allocation task-id="49" resource-id="9" function="4" responsible="false" load="20.0"/>
         <allocation task-id="10" resource-id="9" function="4" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="9" function="4" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="9" function="4" responsible="true" load="100.0"/>
