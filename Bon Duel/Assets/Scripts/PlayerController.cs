@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
 
 	private Vector3 moveDirection = Vector3.zero;
 	private Vector3 rotation = Vector3.zero;
-	private float gravity = 1;
-	public float speed = 0.5f;
+	public float gravity = 5;
+	public float speed = 5.0f;
 	public float rotationFactor = 0.5f;
 
 	// Use this for initialization

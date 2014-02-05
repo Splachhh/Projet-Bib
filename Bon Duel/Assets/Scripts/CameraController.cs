@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
 	private int yMinLimit = -120;
 	private int yMaxLimit = 120;
 	
-	private float limitMinOnXAxis = -60;
+	private float limitMinOnXAxis = -10;
 	private float limitMaxOnXAxis = 50;
 	
 	private int zoomRate = 40;
