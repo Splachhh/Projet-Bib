@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PauseMenu : MonoBehaviour {
-
+public class MenuPause : MonoBehaviour 
+{
+	
 	private bool paused = false;
-
+	
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		Time.timeScale = 1;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
 			if (paused) {
@@ -24,17 +27,18 @@ public class PauseMenu : MonoBehaviour {
 			}
 		}
 	}
-
-	void OnGUI() {
-
+	
+	void OnGUI() 
+	{
+		
 		if (!paused)
 			return;
-
+		
 		float buttonWidth = 128f;
 		float buttonHeight = 32f;
 		
 		int idButton = 0;
-
+		
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
 		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
@@ -52,7 +56,7 @@ public class PauseMenu : MonoBehaviour {
 		{
 			Time.timeScale = 1;
 			paused = false;
-			Application.LoadLevel("MainScene");
+			Application.LoadLevel("Map1");
 		}
 		else if (GUI.Button( new Rect((Screen.width - buttonWidth)/2f,
 		                              0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
@@ -60,8 +64,8 @@ public class PauseMenu : MonoBehaviour {
 		                              buttonHeight),
 		                    "Retourner au menu"))
 		{
-			Application.LoadLevel("MenuScene");
+			Application.LoadLevel("Menu");
 		}
-
+		
 	}
 }
