@@ -71,7 +71,7 @@ public class CameraController : MonoBehaviour
 		Quaternion rotation = Quaternion.Euler(y, x, 0);
 		
 		// Inclinaison de la caméra
-		rotationOnXAxis += Input.GetAxis("Mouse Y") * rotationAttenuationOnXAxis;
+		rotationOnXAxis += Input.GetAxis("Mouse Y") * rotationAttenuationOnXAxis * Time.timeScale;
 		
 		rotationOnXAxis = ClampAngle(rotationOnXAxis, limitMinOnXAxis, limitMaxOnXAxis);
 		rotation *= Quaternion.AngleAxis(rotationOnXAxis, Vector3.left);

@@ -35,40 +35,40 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="7" name="Modélisations" color="#000000" meeting="false" start="2014-01-20" duration="20" complete="58" expand="true">
+        <task id="7" name="Modélisations" color="#000000" meeting="false" start="2014-01-20" duration="20" complete="87" expand="true">
             <depend id="8" type="1" difference="0" hardness="Strong"/>
             <depend id="14" type="1" difference="0" hardness="Strong"/>
-            <task id="10" name="Carotte" color="#8cb6ce" meeting="false" start="2014-01-27" duration="5" complete="75" priority="2" expand="true">
+            <task id="10" name="Carotte" color="#8cb6ce" meeting="false" start="2014-01-27" duration="5" complete="100" priority="2" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="12" name="Lapin" color="#8cb6ce" meeting="false" start="2014-01-27" duration="5" complete="75" priority="2" expand="true">
+            <task id="12" name="Lapin" color="#8cb6ce" meeting="false" start="2014-01-27" duration="5" complete="100" priority="2" expand="true">
                 <depend id="26" type="2" difference="0" hardness="Strong"/>
                 <depend id="140" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="140" name="Rat" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="0" expand="true">
+            <task id="140" name="Rat" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="100" expand="true">
                 <depend id="183" type="2" difference="0" hardness="Strong"/>
                 <depend id="197" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="197" name="Taupe" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="0" expand="true"/>
+            <task id="197" name="Taupe" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="25" expand="true"/>
             <task id="49" name="Elements de décor" color="#8cb6ce" meeting="false" start="2014-01-20" duration="10" complete="100" expand="true"/>
         </task>
-        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-03" duration="10" complete="0" expand="true">
-            <task id="17" name="Marche carotte" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="0" expand="true">
+        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-03" duration="10" complete="15" expand="true">
+            <task id="17" name="Marche carotte" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="25" expand="true">
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="18" name="Attaque carotte" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="0" expand="true"/>
-            <task id="26" name="Marche lapin" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="0" expand="true">
+            <task id="26" name="Marche lapin" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="25" expand="true">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="16" name="Attaque lapin" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="0" expand="true"/>
-            <task id="183" name="Marche rat" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="0" expand="true"/>
+            <task id="183" name="Marche rat" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="25" expand="true"/>
         </task>
-        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-01-27" duration="16" complete="37" expand="true">
+        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-01-27" duration="16" complete="43" expand="true">
             <depend id="88" type="1" difference="3" hardness="Strong"/>
             <task id="13" name="Création map n°1" color="#8cb6ce" meeting="false" start="2014-01-27" duration="6" complete="100" expand="true">
                 <depend id="14" type="1" difference="2" hardness="Strong"/>
             </task>
-            <task id="14" name="Intégration model sur map n°1" color="#8cb6ce" meeting="false" start="2014-01-29" duration="6" complete="50" expand="true">
+            <task id="14" name="Intégration model sur map n°1" color="#8cb6ce" meeting="false" start="2014-01-29" duration="6" complete="75" expand="true">
                 <depend id="147" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="147" name="Création map n°2" color="#8cb6ce" meeting="false" start="2014-02-06" duration="6" complete="0" expand="true">
@@ -76,8 +76,8 @@
             </task>
             <task id="145" name="Intégration model sur map n°2" color="#8cb6ce" meeting="false" start="2014-02-10" duration="6" complete="0" expand="true"/>
         </task>
-        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-01-30" duration="8" complete="6" expand="true">
-            <task id="89" name="Déplacements player" color="#8cb6ce" meeting="false" start="2014-01-30" duration="4" complete="25" expand="true">
+        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-01-30" duration="8" complete="25" expand="true">
+            <task id="89" name="Déplacements player" color="#8cb6ce" meeting="false" start="2014-01-30" duration="4" complete="100" expand="true">
                 <depend id="97" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="97" name="Attaques du player" color="#8cb6ce" meeting="false" start="2014-02-05" duration="4" complete="0" expand="true"/>

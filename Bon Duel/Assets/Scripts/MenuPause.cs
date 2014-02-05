@@ -9,6 +9,8 @@ public class MenuPause : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
+		Screen.lockCursor = true;
+		Screen.showCursor = false;
 		Time.timeScale = 1;
 	}
 	
@@ -17,16 +19,15 @@ public class MenuPause : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
-			if (paused) {
-				Time.timeScale = 1;
-				paused = false;
-			}
-			else {
+			if (!paused) {
+				Screen.lockCursor = false;
+				Screen.showCursor = true;
 				Time.timeScale = 0;
 				paused = true;
 			}
 		}
 	}
+
 	
 	void OnGUI() 
 	{
@@ -47,6 +48,8 @@ public class MenuPause : MonoBehaviour
 		{
 			Time.timeScale = 1;
 			paused = false;
+			Screen.lockCursor = true;
+			Screen.showCursor = false;
 		}
 		else if (GUI.Button( new Rect((Screen.width - buttonWidth)/2f,
 		                              0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
@@ -56,7 +59,7 @@ public class MenuPause : MonoBehaviour
 		{
 			Time.timeScale = 1;
 			paused = false;
-			Application.LoadLevel("Map1");
+			Application.LoadLevel(Application.loadedLevel);
 		}
 		else if (GUI.Button( new Rect((Screen.width - buttonWidth)/2f,
 		                              0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
