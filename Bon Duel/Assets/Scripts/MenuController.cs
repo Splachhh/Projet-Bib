@@ -4,10 +4,12 @@ using System.Collections;
 public class MenuController : MonoBehaviour 
 {
 	private Menu menu;
+	public LevelDifficulty lvl;
 
 	enum Menu 
 	{
 		MainMenu,
+		NiveauxMenu,
 		CreditsMenu
 	}
 
@@ -16,18 +18,16 @@ public class MenuController : MonoBehaviour
 	{
 		menu = Menu.MainMenu;
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
 
 	void OnGUI()
 	{
 		if (menu == Menu.MainMenu)
 		{
 			drawMainMenu();
+		}
+		else if (menu == Menu.NiveauxMenu)
+		{
+			drawNiveaux();
 		}
 		else if (menu == Menu.CreditsMenu)
 		{
@@ -59,8 +59,9 @@ public class MenuController : MonoBehaviour
 		                         buttonHeight),
 		               "Jouer"))
 		{
-			Application.LoadLevel("Map1");
+			menu = Menu.NiveauxMenu;
 		}
+
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
 		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
@@ -69,6 +70,7 @@ public class MenuController : MonoBehaviour
 		{
 			menu = Menu.CreditsMenu;
 		}
+
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
 		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
@@ -78,6 +80,60 @@ public class MenuController : MonoBehaviour
 			Application.Quit();
 		}
 	}
+
+
+	void drawNiveaux()
+	{
+		GUIStyle style = new GUIStyle();
+		style.fontSize = 50;
+		style.alignment = TextAnchor.UpperCenter;
+
+		
+		float buttonWidth = 128f;
+		float buttonHeight = 32f;
+		
+		int idButton = 0;
+		
+		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
+		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         buttonWidth,
+		                         buttonHeight),
+		               "Facile"))
+		{
+			lvl.difficult = 0;
+			Application.LoadLevel("Map1");
+		}
+
+		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
+		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         buttonWidth,
+		                         buttonHeight),
+		               "Moyen"))
+		{
+			lvl.difficult = 1;
+			Application.LoadLevel("Map1");
+		}
+
+		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
+		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         buttonWidth,
+		                         buttonHeight),
+		               "Difficile"))
+		{
+			lvl.difficult = 2;
+			Application.LoadLevel("Map1");
+		}
+
+		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
+		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         buttonWidth,
+		                         buttonHeight),
+		               "Retour"))
+		{
+			menu = Menu.MainMenu;
+		}
+	}
+
 
 	void drawCredits()
 	{

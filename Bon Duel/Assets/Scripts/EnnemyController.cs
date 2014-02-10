@@ -8,9 +8,15 @@ public class EnnemyController : MonoBehaviour
 	private PlayerController player;
 	public float viewDistance;
 
+	public int difficulty;
+
 	// Use this for initialization
 	void Start () 
 	{
+		int dif = FindObjectOfType<EnnemyCreator>().MyDiffuculty;
+		if(difficulty > dif)
+			gameObject.SetActive(false);
+
 		agent = GetComponent<NavMeshAgent>() as NavMeshAgent;
 
 		player = FindObjectOfType<PlayerController>() as PlayerController;
@@ -22,5 +28,7 @@ public class EnnemyController : MonoBehaviour
 		Vector3 distance = player.transform.position - transform.position;
 		if(distance.magnitude <= viewDistance)
 			agent.SetDestination(player.transform.position);
+		if(distance.magnitude <= agent.stoppingDistance)
+			transform.LookAt(new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z));			                 			           
 	}
 }
