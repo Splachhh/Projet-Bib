@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-01-19" view-index="0" gantt-divider-location="417" resource-divider-location="503" version="2.0" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-01-29" view-index="0" gantt-divider-location="417" resource-divider-location="503" version="2.0" locale="fr">
     <description><![CDATA[Projet Bib2 - Jeu Vidéo]]></description>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:0" id="gantt-chart">
         <field id="tpd3" name="Nom" width="58" order="0"/>
         <field id="tpd4" name="Date de début" width="22" order="1"/>
         <field id="tpd5" name="Date de fin" width="18" order="2"/>
@@ -35,9 +35,10 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="7" name="Modélisations" color="#000000" meeting="false" start="2014-01-20" duration="20" complete="87" expand="true">
+        <task id="7" name="Modélisations" color="#000000" meeting="false" start="2014-01-20" duration="20" complete="80" expand="true">
             <depend id="8" type="1" difference="0" hardness="Strong"/>
             <depend id="14" type="1" difference="0" hardness="Strong"/>
+            <task id="49" name="Elements de décor" color="#8cb6ce" meeting="false" start="2014-01-20" duration="10" complete="100" expand="true"/>
             <task id="10" name="Carotte" color="#8cb6ce" meeting="false" start="2014-01-27" duration="5" complete="100" priority="2" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -50,42 +51,43 @@
                 <depend id="197" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="197" name="Taupe" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="25" expand="true"/>
-            <task id="49" name="Elements de décor" color="#8cb6ce" meeting="false" start="2014-01-20" duration="10" complete="100" expand="true"/>
+            <task id="201" name="Tomate" color="#8cb6ce" meeting="false" start="2014-02-06" duration="4" complete="80" expand="true"/>
+            <task id="202" name="Courge" color="#8cb6ce" meeting="false" start="2014-02-06" duration="4" complete="80" expand="true"/>
+            <task id="203" name="Poireau" color="#8cb6ce" meeting="false" start="2014-02-06" duration="4" complete="80" expand="true"/>
+            <task id="205" name="Patate" color="#8cb6ce" meeting="false" start="2014-02-06" duration="4" complete="50" expand="true"/>
         </task>
-        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-03" duration="10" complete="40" expand="true">
+        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-03" duration="10" complete="50" expand="true">
             <task id="17" name="Marche carotte" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="100" expand="true">
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="18" name="Attaque carotte" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="50" expand="true"/>
-            <task id="26" name="Marche lapin" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="25" expand="true">
-                <depend id="16" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="16" name="Attaque lapin" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="0" expand="true"/>
+            <task id="26" name="Marche lapin" color="#8cb6ce" meeting="false" start="2014-02-03" duration="5" complete="25" expand="true"/>
             <task id="183" name="Marche rat" color="#8cb6ce" meeting="false" start="2014-02-10" duration="5" complete="25" expand="true"/>
         </task>
-        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-01-27" duration="16" complete="43" expand="true">
+        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-01-27" duration="14" complete="63" expand="true">
             <depend id="88" type="1" difference="3" hardness="Strong"/>
             <task id="13" name="Création map n°1" color="#8cb6ce" meeting="false" start="2014-01-27" duration="6" complete="100" expand="true">
                 <depend id="14" type="1" difference="2" hardness="Strong"/>
             </task>
             <task id="14" name="Intégration model sur map n°1" color="#8cb6ce" meeting="false" start="2014-01-29" duration="6" complete="75" expand="true">
-                <depend id="147" type="2" difference="0" hardness="Strong"/>
+                <depend id="234" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="147" name="Création map n°2" color="#8cb6ce" meeting="false" start="2014-02-06" duration="6" complete="0" expand="true">
-                <depend id="145" type="1" difference="2" hardness="Strong"/>
-            </task>
-            <task id="145" name="Intégration model sur map n°2" color="#8cb6ce" meeting="false" start="2014-02-10" duration="6" complete="0" expand="true"/>
+            <task id="234" name="Création de la map Menu" color="#8cb6ce" meeting="false" start="2014-02-06" duration="6" complete="25" expand="true"/>
         </task>
-        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-01-30" duration="8" complete="43" expand="true">
+        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-01-30" duration="13" complete="41" expand="true">
             <task id="89" name="Déplacements player" color="#8cb6ce" meeting="false" start="2014-01-30" duration="4" complete="100" expand="true">
                 <depend id="97" type="2" difference="0" hardness="Strong"/>
+                <depend id="147" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="97" name="Attaques du player" color="#8cb6ce" meeting="false" start="2014-02-05" duration="4" complete="0" expand="true"/>
             <task id="98" name="Déplacements ennemies" color="#8cb6ce" meeting="false" start="2014-01-30" duration="4" complete="75" expand="true">
                 <depend id="99" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="99" name="Attaques ennemies" color="#8cb6ce" meeting="false" start="2014-02-05" duration="4" complete="0" expand="true"/>
+            <task id="147" name="Création Menu pause" color="#8cb6ce" meeting="false" start="2014-02-05" duration="6" complete="50" expand="true"/>
+            <task id="145" name="Création du Menu de jeu" color="#8cb6ce" meeting="false" start="2014-02-10" duration="6" complete="25" expand="true"/>
         </task>
+        <task id="214" name="Vidéo Trailer" color="#8cb6ce" meeting="false" start="2014-02-07" duration="6" complete="25" expand="true"/>
     </tasks>
     <resources>
         <resource id="5" name="Thibaut" function="Default:1" contacts="" phone=""/>
@@ -98,25 +100,29 @@
         <allocation task-id="49" resource-id="5" function="Default:1" responsible="true" load="20.0"/>
         <allocation task-id="13" resource-id="5" function="Default:1" responsible="true" load="50.0"/>
         <allocation task-id="14" resource-id="5" function="Default:1" responsible="true" load="50.0"/>
-        <allocation task-id="147" resource-id="5" function="Default:1" responsible="false" load="50.0"/>
-        <allocation task-id="145" resource-id="5" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="147" resource-id="5" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="145" resource-id="5" function="Default:1" responsible="true" load="50.0"/>
         <allocation task-id="98" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="99" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="202" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="203" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="234" resource-id="5" function="Default:1" responsible="false" load="50.0"/>
         <allocation task-id="49" resource-id="6" function="1" responsible="false" load="20.0"/>
         <allocation task-id="13" resource-id="6" function="1" responsible="true" load="50.0"/>
         <allocation task-id="14" resource-id="6" function="1" responsible="true" load="50.0"/>
-        <allocation task-id="147" resource-id="6" function="1" responsible="true" load="50.0"/>
-        <allocation task-id="145" resource-id="6" function="1" responsible="true" load="50.0"/>
         <allocation task-id="140" resource-id="6" function="1" responsible="true" load="100.0"/>
         <allocation task-id="183" resource-id="6" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="201" resource-id="6" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="234" resource-id="6" function="1" responsible="true" load="50.0"/>
         <allocation task-id="49" resource-id="7" function="2" responsible="false" load="20.0"/>
         <allocation task-id="12" resource-id="7" function="2" responsible="true" load="100.0"/>
         <allocation task-id="26" resource-id="7" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="16" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="214" resource-id="7" function="2" responsible="true" load="100.0"/>
         <allocation task-id="49" resource-id="8" function="3" responsible="false" load="20.0"/>
         <allocation task-id="89" resource-id="8" function="3" responsible="true" load="100.0"/>
         <allocation task-id="97" resource-id="8" function="3" responsible="true" load="100.0"/>
         <allocation task-id="197" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="205" resource-id="8" function="3" responsible="true" load="100.0"/>
         <allocation task-id="49" resource-id="9" function="4" responsible="false" load="20.0"/>
         <allocation task-id="10" resource-id="9" function="4" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="9" function="4" responsible="true" load="100.0"/>
