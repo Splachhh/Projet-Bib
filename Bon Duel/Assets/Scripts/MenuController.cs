@@ -45,21 +45,15 @@ public class MenuController : MonoBehaviour
 		GUIStyle style = new GUIStyle();
 		style.fontSize = 50;
 		style.alignment = TextAnchor.UpperCenter;
-		
-		GUI.Label(new Rect((Screen.width - 500f)/2f,
-		                   (Screen.height * 0.33f - 40f)/2f,
-		                   500f,
-		                   40f),
-		          "BON DUEL", style);
 
 
 		float buttonWidth = 128f;
 		float buttonHeight = 32f;
 		
-		int idButton = 0;
+		float idButton = 0f;
 
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
-		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         0.6f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
 		                         buttonHeight),
 		               "Jouer"))
@@ -68,7 +62,7 @@ public class MenuController : MonoBehaviour
 		}
 
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
-		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         0.6f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
 		                         buttonHeight),
 		               "Instructions"))
@@ -77,7 +71,7 @@ public class MenuController : MonoBehaviour
 		}
 
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
-		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         0.6f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
 		                         buttonHeight),
 		               "Credits"))
@@ -86,7 +80,7 @@ public class MenuController : MonoBehaviour
 		}
 
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
-		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         0.6f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
 		                         buttonHeight),
 		               "Quitter"))
@@ -143,9 +137,9 @@ public class MenuController : MonoBehaviour
 			Application.LoadLevel("Map1");
 		}
 
-		idButton += 2;
+
 		if (GUI.Button(	new Rect((Screen.width - buttonWidth)/2f,
-		                         0.3f*Screen.height + buttonHeight * 1.33f * idButton++,
+		                         0.6f*Screen.height + buttonHeight * 1.33f * idButton++,
 		                         buttonWidth,
 		                         buttonHeight),
 		               "Retour"))
@@ -199,7 +193,7 @@ public class MenuController : MonoBehaviour
 		                   buttonWidth,
 		                   buttonHeight*6),
 		          "Changement de personnage :", style);
-		idButton += 3;
+		idButton += 2;
 		
 		if (GUI.Button(	new Rect((buttonWidth - 128)/2f +40,
 		                         buttonHeight * 1.33f * idButton++,
