@@ -13,7 +13,7 @@ public class EnnemyController : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		int dif = FindObjectOfType<EnnemyCreator>().MyDiffuculty;
+		int dif = GameObject.FindObjectOfType<EnnemyCreator>().getDificulty();
 		if(difficulty > dif)
 			gameObject.SetActive(false);
 

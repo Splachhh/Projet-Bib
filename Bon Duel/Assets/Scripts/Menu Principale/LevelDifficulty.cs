@@ -3,25 +3,22 @@ using System.Collections;
 
 public class LevelDifficulty : MonoBehaviour {
 
-	public int difficult = 0;
+	public int difficult;
 
 	// Use this for initialization
-	void Start () {
-		DontDestroyOnLoad(transform.gameObject);
-	}
-	
-	void setEasy()
+	void Start () 
 	{
-		difficult = 0;
+		DontDestroyOnLoad(gameObject);
 	}
 
-	void setMedium()
+
+	public void SetLevel(int lvl)
 	{
-		difficult = 1;
+		difficult = lvl;
 	}
 
-	void setHard()
+	public int GetLevel()
 	{
-		difficult = 2;
+		return difficult;
 	}
 }
