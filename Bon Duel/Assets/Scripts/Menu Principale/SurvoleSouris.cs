@@ -4,7 +4,7 @@ using System.Collections;
 public class SurvoleSouris : MonoBehaviour 
 {
 	// Use this for initialization
-	protected virtual void Start () 
+	void Start () 
 	{
 	}
 	

@@ -21,7 +21,7 @@ public class MenuPrincipal : SurvoleSouris
 	private bool menuCredit = false;
 
 	// Use this for initialization
-	protected override void Start () 
+	void Start () 
 	{
 	}
 
