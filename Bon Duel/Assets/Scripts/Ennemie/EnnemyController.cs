@@ -33,10 +33,9 @@ public abstract class EnnemyController : MonoBehaviour
 	{
 		m_timeLapseAttack += Time.deltaTime;
 		Vector3 distance = player.transform.position - transform.position;
-		if(distance.magnitude <= m_viewDistance)
-			agent.SetDestination(player.transform.position);
 		if(distance.magnitude <= agent.stoppingDistance)
 		{
+			agent.Stop();
 			transform.LookAt(new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z));			                 			           
 			if(m_timeLapseAttack > m_timeAttack)
 			{
@@ -45,6 +44,8 @@ public abstract class EnnemyController : MonoBehaviour
 				m_timeLapseAttack = 0f;
 			}
 		}
+		else if(distance.magnitude <= m_viewDistance)
+			agent.SetDestination(player.transform.position);
 		Debug.Log ("hp ennemis" + m_hp);
 	}
 

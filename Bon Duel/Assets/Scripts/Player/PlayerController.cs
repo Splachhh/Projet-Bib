@@ -64,7 +64,8 @@ public class PlayerController : MonoBehaviour
 				if(distance.magnitude <= m_distanceAttack)
 				{
 					Vector3 vecDir = ennemi.transform.position - transform.position;
-					float angle = Vector3.Angle(distance, transform.forward);
+					float angle = Vector3.Angle(transform.forward, vecDir);
+					Debug.Log("forw " + transform.forward);
 					Debug.Log("angle" + angle);
 					if(angle <= m_angleAttack && angle >= -m_angleAttack)
 					{
