@@ -1,58 +1,52 @@
 fileFormatVersion: 2
-guid: 85efd2e598b15954a8b127e2b77cfe84
+guid: 908ef8566444ef84e8f15764e1fa8d03
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Sph__re001
-    100004: Sphere001
-    100006: ' bras gauche'
-    100008: avant bras droit
-    100010: avant bras gauche
-    100012: bassin
-    100014: bras droit
-    100016: corps
-    100018: Dummy001
-    100020: epaule
-    100022: IK Chain001
-    100024: IK Chain002
-    100026: IK Chain003
-    100028: IK Chain004
-    100030: jambe droite
-    100032: jambe gauche
-    100034: main droite
-    100036: main gauche
-    100038: pied droit
-    100040: pied gauche
-    100042: tibia droit
-    100044: tibia gauche
-    400000: //RootNode
-    400002: Sph__re001
-    400004: Sphere001
-    400006: ' bras gauche'
-    400008: avant bras droit
-    400010: avant bras gauche
-    400012: bassin
-    400014: bras droit
-    400016: corps
-    400018: Dummy001
-    400020: epaule
-    400022: IK Chain001
-    400024: IK Chain002
-    400026: IK Chain003
-    400028: IK Chain004
-    400030: jambe droite
-    400032: jambe gauche
-    400034: main droite
-    400036: main gauche
-    400038: pied droit
-    400040: pied gauche
-    400042: tibia droit
-    400044: tibia gauche
-    2300000: Sphere001
-    3300000: Sphere001
-    4300000: Sphere001
-    4300002: corps
+    100000: ' bras gauche'
+    100002: avant bras droit
+    100004: avant bras gauche
+    100006: bassin
+    100008: bras droit
+    100010: corps
+    100012: //RootNode
+    100014: Dummy001
+    100016: epaule
+    100018: IK Chain001
+    100020: IK Chain002
+    100022: IK Chain003
+    100024: IK Chain004
+    100026: jambe droite
+    100028: jambe gauche
+    100030: main droite
+    100032: main gauche
+    100034: pied droit
+    100036: pied gauche
+    100038: tibia droit
+    100040: tibia gauche
+    400000: ' bras gauche'
+    400002: avant bras droit
+    400004: avant bras gauche
+    400006: bassin
+    400008: bras droit
+    400010: corps
+    400012: //RootNode
+    400014: Dummy001
+    400016: epaule
+    400018: IK Chain001
+    400020: IK Chain002
+    400022: IK Chain003
+    400024: IK Chain004
+    400026: jambe droite
+    400028: jambe gauche
+    400030: main droite
+    400032: main gauche
+    400034: pied droit
+    400036: pied gauche
+    400038: tibia droit
+    400040: tibia gauche
+    4300000: corps
+    7400000: Take 001
     9500000: //RootNode
     13700000: corps
   materials:

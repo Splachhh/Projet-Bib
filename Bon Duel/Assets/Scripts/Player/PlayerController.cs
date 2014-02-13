@@ -17,10 +17,17 @@ public class PlayerController : MonoBehaviour
 	private float m_distanceAttack = 4.5f;
 	private float m_angleAttack = 45f;
 
+	private Animator anim;
+	private HashIDs hashID;
+
+
 	// Use this for initialization
 	void Start () 
 	{
 		control = GetComponent<CharacterController>() as CharacterController;
+		anim = GetComponentInChildren<Animator>() as Animator;
+		hashID = GetComponent<HashIDs>() as HashIDs;
+		anim.SetLayerWeight(0,1f);
 	}
 	
 	// Update is called once per frame
@@ -31,6 +38,10 @@ public class PlayerController : MonoBehaviour
 		moveDirection *= m_speed;
 		moveDirection.y -= m_gravity * Time.deltaTime;
 		control.Move(moveDirection * Time.deltaTime);
+		if(moveDirection.x != 0 || moveDirection.z != 0)
+			anim.SetBool(hashID.isWalking, true);
+		else
+			anim.SetBool(hashID.isWalking, false);
 
 		// Rotation
 		rotation = new Vector3(0, Input.GetAxis("Mouse X"), 0);
@@ -63,7 +74,10 @@ public class PlayerController : MonoBehaviour
 					}
 				}
 			}
+			anim.SetBool(hashID.isHitting, true);
 		}
+		else
+			anim.SetBool(hashID.isHitting, false);
 	}
 
 	public void majHp(int hpChange)
