@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: c122aac9726241a4ba9c9027350b160a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ' bras gauche'
+    100002: //RootNode
+    100004: avant bras droit
+    100006: avant bras gauche
+    100008: bassin
+    100010: bras droit
+    100012: corps
+    100014: Dummy001
+    100016: epaule
+    100018: IK Chain001
+    100020: IK Chain002
+    100022: IK Chain003
+    100024: IK Chain004
+    100026: jambe droite
+    100028: jambe gauche
+    100030: main droite
+    100032: main gauche
+    100034: pied droit
+    100036: pied gauche
+    100038: tibia droit
+    100040: tibia gauche
+    400000: ' bras gauche'
+    400002: //RootNode
+    400004: avant bras droit
+    400006: avant bras gauche
+    400008: bassin
+    400010: bras droit
+    400012: corps
+    400014: Dummy001
+    400016: epaule
+    400018: IK Chain001
+    400020: IK Chain002
+    400022: IK Chain003
+    400024: IK Chain004
+    400026: jambe droite
+    400028: jambe gauche
+    400030: main droite
+    400032: main gauche
+    400034: pied droit
+    400036: pied gauche
+    400038: tibia droit
+    400040: tibia gauche
+    4300000: corps
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: corps
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: corps
+        weight: 0
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/bassin
+        weight: 1
+      - path: Dummy001/bassin/epaule
+        weight: 1
+      - path: Dummy001/bassin/epaule/ bras gauche
+        weight: 1
+      - path: Dummy001/bassin/epaule/ bras gauche/avant bras gauche
+        weight: 1
+      - path: Dummy001/bassin/epaule/ bras gauche/avant bras gauche/main gauche
+        weight: 1
+      - path: Dummy001/bassin/epaule/bras droit
+        weight: 1
+      - path: Dummy001/bassin/epaule/bras droit/avant bras droit
+        weight: 1
+      - path: Dummy001/bassin/epaule/bras droit/avant bras droit/main droite
+        weight: 1
+      - path: Dummy001/bassin/jambe droite
+        weight: 0
+      - path: Dummy001/bassin/jambe droite/tibia droit
+        weight: 0
+      - path: Dummy001/bassin/jambe droite/tibia droit/pied droit
+        weight: 0
+      - path: Dummy001/bassin/jambe gauche
+        weight: 0
+      - path: Dummy001/bassin/jambe gauche/tibia gauche
+        weight: 0
+      - path: Dummy001/bassin/jambe gauche/tibia gauche/pied gauche
+        weight: 0
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 0
+      - path: IK Chain004
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0250000004
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
