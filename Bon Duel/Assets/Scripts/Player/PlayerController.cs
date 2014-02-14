@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 	private float m_speed = 10f;
 	private float m_rotationFactor = 2f;
 
+	private int m_hpMax = 100;
 	private int m_hp = 100;
 	private int m_degat = 20;
 
@@ -20,6 +21,8 @@ public class PlayerController : MonoBehaviour
 	private Animator anim;
 	private HashIDs hashID;
 
+	public int getHpMax() {return m_hpMax;}
+	public int getHp() {return m_hp;}
 
 	// Use this for initialization
 	void Start () 
