@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-02-15" view-index="0" gantt-divider-location="417" resource-divider-location="503" version="2.0" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-02-14" view-index="1" gantt-divider-location="416" resource-divider-location="503" version="2.0" locale="fr">
     <description><![CDATA[Projet Bib2 - Jeu Vidéo]]></description>
-    <view zooming-state="default:0" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="58" order="0"/>
-        <field id="tpd4" name="Date de début" width="22" order="1"/>
-        <field id="tpd5" name="Date de fin" width="18" order="2"/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="63" order="0"/>
+        <field id="tpd4" name="Date de début" width="20" order="1"/>
+        <field id="tpd5" name="Date de fin" width="15" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="50" order="0"/>
-        <field id="1" name="Rôle par défaut" width="49" order="1"/>
+        <field id="1" name="Rôle par défaut" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -54,8 +54,8 @@
         <task id="7" name="Modélisations" color="#000000" meeting="false" start="2014-02-28" duration="3" complete="100" expand="true">
             <task id="242" name="Chêne" color="#8cb6ce" meeting="false" start="2014-02-28" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-17" duration="20" complete="0" expand="true">
-            <task id="245" name="Attaque Lapin" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true"/>
+        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-17" duration="20" complete="10" expand="true">
+            <task id="245" name="Attaque Lapin" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="100" expand="true"/>
             <task id="250" name="Marche Tomate" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true">
                 <depend id="246" type="1" difference="0" hardness="Strong"/>
                 <depend id="251" type="2" difference="0" hardness="Strong"/>
@@ -71,63 +71,44 @@
             <task id="253" name="Attaque Courge" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="0" expand="true"/>
             <task id="247" name="Attaque Taupe jour" color="#8cb6ce" meeting="false" start="2014-02-21" duration="4" complete="0" expand="true"/>
             <task id="254" name="Marche Patate" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="0" expand="true">
-                <depend id="248" type="1" difference="0" hardness="Strong"/>
                 <depend id="256" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="248" name="Marche Taupe nuit" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="0" expand="true">
-                <depend id="249" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="249" name="Attaque Taupe nuit" color="#8cb6ce" meeting="false" start="2014-03-05" duration="4" complete="0" expand="true"/>
             <task id="256" name="Marche Poireau" color="#8cb6ce" meeting="false" start="2014-03-05" duration="4" complete="0" expand="true">
                 <depend id="257" type="2" difference="0" hardness="Strong"/>
-                <depend id="269" type="1" difference="0" hardness="Strong"/>
             </task>
             <task id="257" name="Attaque Poireau" color="#8cb6ce" meeting="false" start="2014-03-11" duration="4" complete="0" expand="true"/>
-            <task id="269" name="Attaque Chêne" color="#8cb6ce" meeting="false" start="2014-03-05" duration="4" complete="0" expand="true">
-                <depend id="242" type="4" difference="0" hardness="Strong"/>
-            </task>
         </task>
-        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-02-17" duration="19" complete="0" expand="true">
-            <task id="13" name="Création map n°2" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true">
-                <depend id="14" type="1" difference="2" hardness="Strong"/>
+        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-02-17" duration="18" complete="20" expand="true">
+            <task id="13" name="Création map n°2" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="80" expand="true">
+                <depend id="14" type="1" difference="3" hardness="Strong"/>
+            </task>
+            <task id="14" name="Intégration model sur map n°2" color="#8cb6ce" meeting="false" start="2014-02-20" duration="6" complete="0" expand="true">
                 <depend id="234" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="14" name="Intégration model sur map n°2" color="#8cb6ce" meeting="false" start="2014-02-19" duration="5" complete="0" expand="true"/>
-            <task id="234" name="Création map n°3" color="#8cb6ce" meeting="false" start="2014-02-21" duration="4" complete="0" expand="true">
-                <depend id="258" type="2" difference="0" hardness="Strong"/>
-                <depend id="260" type="1" difference="2" hardness="Strong"/>
+            <task id="234" name="Création map n°3" color="#8cb6ce" meeting="false" start="2014-02-28" duration="6" complete="0" expand="true">
+                <depend id="260" type="1" difference="3" hardness="Strong"/>
             </task>
-            <task id="260" name="Intégration model sur map n°3" color="#8cb6ce" meeting="false" start="2014-02-25" duration="5" complete="0" expand="true"/>
-            <task id="258" name="Création map n°4" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="0" expand="true">
-                <depend id="259" type="2" difference="0" hardness="Strong"/>
-                <depend id="261" type="1" difference="2" hardness="Strong"/>
-            </task>
-            <task id="261" name="Intégration model sur map n°4" color="#8cb6ce" meeting="false" start="2014-03-03" duration="5" complete="0" expand="true"/>
-            <task id="259" name="Création map Final" color="#8cb6ce" meeting="false" start="2014-03-05" duration="4" complete="0" expand="true">
-                <depend id="262" type="1" difference="2" hardness="Strong"/>
-            </task>
-            <task id="262" name="Intégration model sur map Final" color="#8cb6ce" meeting="false" start="2014-03-07" duration="5" complete="0" expand="true"/>
+            <task id="260" name="Intégration model sur map n°3" color="#8cb6ce" meeting="false" start="2014-03-05" duration="6" complete="0" expand="true"/>
         </task>
-        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-02-17" duration="6" complete="0" expand="true">
+        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-02-17" duration="21" complete="41" expand="true">
+            <task id="518" name="HUD" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="50" expand="true"/>
             <task id="268" name="Gestion de la musique" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="0" expand="true"/>
-            <task id="494" name="Ajout des crédits" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true"/>
-            <task id="495" name="Ajout des instructions" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true"/>
+            <task id="559" name="Ajout de la page synopsis" color="#8cb6ce" meeting="false" start="2014-02-17" duration="5" complete="100" expand="true"/>
+            <task id="495" name="Ajout des instructions" color="#8cb6ce" meeting="false" start="2014-03-10" duration="3" complete="50" expand="true">
+                <depend id="494" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="494" name="Ajout des crédits" color="#8cb6ce" meeting="false" start="2014-03-13" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="214" name="Vidéos" color="#8cb6ce" meeting="false" start="2014-02-17" duration="20" complete="0" expand="true">
-            <task id="263" name="Cinématique niveaux 1 - 2" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true">
+        <task id="214" name="Vidéos" color="#8cb6ce" meeting="false" start="2014-02-24" duration="15" complete="0" expand="true">
+            <task id="263" name="Cinématique niveaux 1 - 2" color="#8cb6ce" meeting="false" start="2014-02-24" duration="5" complete="0" expand="true">
                 <depend id="264" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="264" name="Cinématique niveaux 2 - 3" color="#8cb6ce" meeting="false" start="2014-02-21" duration="4" complete="0" expand="true">
-                <depend id="265" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="265" name="Cinématique niveaux 3 - 4" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="0" expand="true">
-                <depend id="266" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="266" name="Cinématique niveaux 4 - Final" color="#8cb6ce" meeting="false" start="2014-03-05" duration="4" complete="0" expand="true">
+            <task id="264" name="Cinématique niveaux 2 - 3" color="#8cb6ce" meeting="false" start="2014-03-03" duration="5" complete="0" expand="true">
                 <depend id="267" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="267" name="Cinématique Fin" color="#8cb6ce" meeting="false" start="2014-03-11" duration="4" complete="0" expand="true"/>
+            <task id="267" name="Cinématique Fin" color="#8cb6ce" meeting="false" start="2014-03-10" duration="5" complete="0" expand="true"/>
         </task>
+        <task id="553" name="Test" color="#8cb6ce" meeting="false" start="2014-03-05" duration="8" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="5" name="Thibaut" function="Default:1" contacts="" phone=""/>
@@ -136,7 +117,34 @@
         <resource id="8" name="Bastien" function="3" contacts="" phone=""/>
         <resource id="9" name="Grégory" function="4" contacts="" phone=""/>
     </resources>
-    <allocations/>
+    <allocations>
+        <allocation task-id="518" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="5" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="14" resource-id="5" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="260" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="242" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="494" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="250" resource-id="6" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="251" resource-id="6" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="246" resource-id="6" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="6" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="14" resource-id="6" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="234" resource-id="6" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="495" resource-id="6" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="268" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="263" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="264" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="267" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="247" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="254" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="256" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="257" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="559" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="245" resource-id="9" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="252" resource-id="9" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="253" resource-id="9" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="553" resource-id="9" function="4" responsible="true" load="100.0"/>
+    </allocations>
     <vacations/>
     <taskdisplaycolumns>
         <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
@@ -148,9 +156,9 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="234" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="89" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="75" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="254" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="80" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="63" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>

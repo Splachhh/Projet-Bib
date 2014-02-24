@@ -23,6 +23,9 @@ public class PrincipalMenuManager : SurvoleSouris
 	private GameObject Retour;
 	private Collider ColRetour;
 
+	// Menu instruction
+	private GeneriqueDebut menuInstructions;
+
 	//Définition du niveau
 	private LevelDifficulty lvl;
 
@@ -57,6 +60,9 @@ public class PrincipalMenuManager : SurvoleSouris
 		//Retour
 		Retour = GameObject.Find ("BoutonRetour");
 		ColRetour = Retour.GetComponent<Collider> ();
+
+		// Menu instruction
+		menuInstructions = GameObject.Find ("Menu Instructions").GetComponent<GeneriqueDebut> ();
 	}
 	
 	// Update is called once per frame
@@ -105,21 +111,21 @@ public class PrincipalMenuManager : SurvoleSouris
 		{
 			Debug.Log("Choix Facile");
 			lvl.SetLevel(0);
-			Application.LoadLevel("Map1");
+			activeMenuInstructions();
 		}
 
 		if (transform.name == "BoutonMoyen") 
 		{
 			Debug.Log("Choix Moyen");
 			lvl.SetLevel(1);
-			Application.LoadLevel("Map1");
+			activeMenuInstructions();
 		}
 
 		if (transform.name == "BoutonDifficile") 
 		{
 			Debug.Log("Choix Difficile");
 			lvl.SetLevel(2);
-			Application.LoadLevel("Map1");
+			activeMenuInstructions();
 		}
 
 	}
@@ -230,5 +236,19 @@ public class PrincipalMenuManager : SurvoleSouris
 			//Activation des collider
 			ColRetour.enabled = true;
 		}
+	}
+
+	void disableDifficultyShow()
+	{
+		Facile.renderer.enabled = false;
+		Moyen.renderer.enabled = false;
+		Difficile.renderer.enabled = false;
+		Retour.renderer.enabled = false;
+	}
+
+	void activeMenuInstructions()
+	{
+		disableDifficultyShow ();
+		menuInstructions.setActive(true);
 	}
 }
