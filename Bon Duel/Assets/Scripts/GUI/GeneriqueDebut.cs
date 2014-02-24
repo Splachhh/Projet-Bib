@@ -113,7 +113,7 @@ public class GeneriqueDebut : MonoBehaviour
 		{
 			m_itemSelected++;
 			if (m_itemSelected >= m_toolbarStrings.Length)
-				Application.LoadLevel("Map1");
+				Application.LoadLevel("Map_1");
 		}
 
 		GUILayout.EndArea ();
