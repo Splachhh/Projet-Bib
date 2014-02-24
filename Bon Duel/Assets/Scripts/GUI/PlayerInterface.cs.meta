@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 9118ac91ee2657b41a68071d40d1bf50
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_cercleIcon: {fileID: 2800000, guid: 1d4954f188b0e9f41903f36e20e21d7e, type: 3}
+  - m_lifeBorder: {fileID: 2800000, guid: e6339e5b7e5bc5146841157bbcb53b20, type: 3}
+  - m_lifeInside: {fileID: 2800000, guid: 3a4099067240a5e4b9989fad743e41a3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
