@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-02-14" view-index="1" gantt-divider-location="416" resource-divider-location="503" version="2.0" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Bon Duel" company="" webLink="http://" view-date="2014-02-15" view-index="0" gantt-divider-location="416" resource-divider-location="503" version="2.0" locale="fr">
     <description><![CDATA[Projet Bib2 - Jeu Vidéo]]></description>
-    <view zooming-state="default:3" id="gantt-chart">
+    <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nom" width="63" order="0"/>
         <field id="tpd4" name="Date de début" width="20" order="1"/>
         <field id="tpd5" name="Date de fin" width="15" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="50" order="0"/>
-        <field id="1" name="Rôle par défaut" width="50" order="1"/>
+        <field id="1" name="Rôle par défaut" width="49" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -54,21 +54,21 @@
         <task id="7" name="Modélisations" color="#000000" meeting="false" start="2014-02-28" duration="3" complete="100" expand="true">
             <task id="242" name="Chêne" color="#8cb6ce" meeting="false" start="2014-02-28" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-17" duration="20" complete="10" expand="true">
+        <task id="8" name="Animations" color="#000000" meeting="false" start="2014-02-17" duration="20" complete="32" expand="true">
             <task id="245" name="Attaque Lapin" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="100" expand="true"/>
-            <task id="250" name="Marche Tomate" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true">
+            <task id="250" name="Marche Tomate" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="25" expand="true">
                 <depend id="246" type="1" difference="0" hardness="Strong"/>
                 <depend id="251" type="2" difference="0" hardness="Strong"/>
                 <depend id="252" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="251" name="Attaque Tomate" color="#8cb6ce" meeting="false" start="2014-02-21" duration="4" complete="0" expand="true"/>
             <task id="246" name="Attaque Rat" color="#8cb6ce" meeting="false" start="2014-02-17" duration="4" complete="0" expand="true"/>
-            <task id="252" name="Marche Courge" color="#8cb6ce" meeting="false" start="2014-02-21" duration="4" complete="0" expand="true">
+            <task id="252" name="Marche Courge" color="#8cb6ce" meeting="false" start="2014-02-21" duration="4" complete="100" expand="true">
                 <depend id="247" type="1" difference="0" hardness="Strong"/>
                 <depend id="253" type="2" difference="0" hardness="Strong"/>
                 <depend id="254" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="253" name="Attaque Courge" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="0" expand="true"/>
+            <task id="253" name="Attaque Courge" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="100" expand="true"/>
             <task id="247" name="Attaque Taupe jour" color="#8cb6ce" meeting="false" start="2014-02-21" duration="4" complete="0" expand="true"/>
             <task id="254" name="Marche Patate" color="#8cb6ce" meeting="false" start="2014-02-27" duration="4" complete="0" expand="true">
                 <depend id="256" type="2" difference="0" hardness="Strong"/>
@@ -78,11 +78,11 @@
             </task>
             <task id="257" name="Attaque Poireau" color="#8cb6ce" meeting="false" start="2014-03-11" duration="4" complete="0" expand="true"/>
         </task>
-        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-02-17" duration="18" complete="20" expand="true">
+        <task id="9" name="Maps" color="#000000" meeting="false" start="2014-02-17" duration="18" complete="26" expand="true">
             <task id="13" name="Création map n°2" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="80" expand="true">
                 <depend id="14" type="1" difference="3" hardness="Strong"/>
             </task>
-            <task id="14" name="Intégration model sur map n°2" color="#8cb6ce" meeting="false" start="2014-02-20" duration="6" complete="0" expand="true">
+            <task id="14" name="Intégration model sur map n°2" color="#8cb6ce" meeting="false" start="2014-02-20" duration="6" complete="25" expand="true">
                 <depend id="234" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="234" name="Création map n°3" color="#8cb6ce" meeting="false" start="2014-02-28" duration="6" complete="0" expand="true">
@@ -90,9 +90,9 @@
             </task>
             <task id="260" name="Intégration model sur map n°3" color="#8cb6ce" meeting="false" start="2014-03-05" duration="6" complete="0" expand="true"/>
         </task>
-        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-02-17" duration="21" complete="41" expand="true">
-            <task id="518" name="HUD" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="50" expand="true"/>
-            <task id="268" name="Gestion de la musique" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="0" expand="true"/>
+        <task id="88" name="Scripts" color="#000000" meeting="false" start="2014-02-17" duration="21" complete="70" expand="true">
+            <task id="518" name="HUD" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="80" expand="true"/>
+            <task id="268" name="Gestion de la musique" color="#8cb6ce" meeting="false" start="2014-02-17" duration="6" complete="80" expand="true"/>
             <task id="559" name="Ajout de la page synopsis" color="#8cb6ce" meeting="false" start="2014-02-17" duration="5" complete="100" expand="true"/>
             <task id="495" name="Ajout des instructions" color="#8cb6ce" meeting="false" start="2014-03-10" duration="3" complete="50" expand="true">
                 <depend id="494" type="2" difference="0" hardness="Strong"/>
