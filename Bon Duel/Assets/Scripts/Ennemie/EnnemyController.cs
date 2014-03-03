@@ -23,6 +23,9 @@ public abstract class EnnemyController : MonoBehaviour
 	private float m_timeLapseMarche = 5f;
 	private int ind;
 
+	private Animator anim;
+	private HashIDs hashID;
+
 	// Use this for initialization
 	protected virtual void Start () 
 	{
@@ -42,6 +45,9 @@ public abstract class EnnemyController : MonoBehaviour
 		m_pointControl.Add(new Vector3(Random.Range(m_origin.x - 20, m_origin.x), m_origin.y, Random.Range(m_origin.z - 20, m_origin.z)));
 		m_pointControl.Add(m_origin);
 
+		anim = GetComponentInChildren<Animator>() as Animator;
+		hashID = GetComponent<HashIDs>() as HashIDs;
+		anim.SetLayerWeight(0,1f);
 	}
 	
 	// Update is called once per frame
@@ -59,6 +65,8 @@ public abstract class EnnemyController : MonoBehaviour
 			transform.LookAt(new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z));			                 			           
 			if(m_timeLapseAttack >= m_timeAttack)
 			{
+				anim.SetBool(hashID.isHitting, true);
+				Debug.Log("J'attaque");
 				int degat = Random.Range(m_degat-1, m_degat+1);
 				player.majHp(-degat);
 				m_timeLapseAttack = 0f;
@@ -82,6 +90,17 @@ public abstract class EnnemyController : MonoBehaviour
 			m_timeLapseMarche = 0f;
 		}
 	
+		if(agent.velocity!=Vector3.zero)
+		{
+			anim.SetBool(hashID.isWalking, true);
+			Debug.Log ("Je marche");
+		}
+		else
+		{
+			anim.SetBool(hashID.isWalking, false);
+			Debug.Log ("Je marche pas");
+		}
+
 		Debug.Log ("hp ennemis" + m_hp);
 	}
 
