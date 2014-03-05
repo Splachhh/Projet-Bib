@@ -109,11 +109,125 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bo__te001
+        weight: 1
+      - path: Cha__ne CI002
+        weight: 1
+      - path: Cha__ne CI003
+        weight: 1
+      - path: Cha__ne CI004
+        weight: 1
+      - path: Cha__ne CI005
+        weight: 1
+      - path: Cha__ne CI006
+        weight: 1
+      - path: Cha__ne CI007
+        weight: 1
+      - path: Cha__ne CI010
+        weight: 1
+      - path: Cha__ne CI011
+        weight: 1
+      - path: Corps
+        weight: 1
+      - path: Corps/CuisseD
+        weight: 1
+      - path: Corps/CuisseD/MolletD
+        weight: 1
+      - path: Corps/CuisseD/MolletD/PiedD
+        weight: 1
+      - path: Corps/CuisseD/MolletD/PiedD/BoutPiedD
+        weight: 1
+      - path: Corps/CuisseG
+        weight: 1
+      - path: Corps/CuisseG/MolletG
+        weight: 1
+      - path: Corps/CuisseG/MolletG/PiedG
+        weight: 1
+      - path: Corps/CuisseG/MolletG/PiedG/BoutPiedG
+        weight: 1
+      - path: Corps/MecheAR1
+        weight: 1
+      - path: Corps/MecheAR1/MecheAR2
+        weight: 1
+      - path: Corps/MecheAR1/MecheAR2/MecheAR3
+        weight: 1
+      - path: Corps/MecheAR1/MecheAR2/MecheAR3/mecheAR4
+        weight: 1
+      - path: Corps/MecheAR1/MecheAR2/MecheAR3/mecheAR4/MecheAR5
+        weight: 1
+      - path: Corps/MecheAR1/MecheAR2/MecheAR3/mecheAR4/MecheAR5/mecheARBout
+        weight: 1
+      - path: Corps/mecheavant1
+        weight: 1
+      - path: Corps/mecheavant1/mecheavant2
+        weight: 1
+      - path: Corps/mecheavant1/mecheavant2/mecheavant3
+        weight: 1
+      - path: Corps/mecheavant1/mecheavant2/mecheavant3/MecheavantBout
+        weight: 1
+      - path: Corps/mecheD1
+        weight: 1
+      - path: Corps/mecheD1/mecheD2
+        weight: 1
+      - path: Corps/mecheD1/mecheD2/mecheDbout
+        weight: 1
+      - path: Corps/MecheG1
+        weight: 1
+      - path: Corps/MecheG1/MecheG2
+        weight: 1
+      - path: Corps/MecheG1/MecheG2/MecheG3
+        weight: 1
+      - path: Corps/MecheG1/MecheG2/MecheG3/MecheGBout
+        weight: 1
+      - path: EpauleD
+        weight: 1
+      - path: EpauleD/BrasD
+        weight: 1
+      - path: EpauleD/BrasD/MainD
+        weight: 1
+      - path: EpauleD/BrasD/MainD/BoutMainD
+        weight: 1
+      - path: epauleG
+        weight: 1
+      - path: epauleG/brasG
+        weight: 1
+      - path: epauleG/brasG/MainG
+        weight: 1
+      - path: epauleG/brasG/MainG/BoutMainG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: .0399999991
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

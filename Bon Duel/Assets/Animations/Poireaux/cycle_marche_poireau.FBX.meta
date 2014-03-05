@@ -61,11 +61,77 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bassin
+        weight: 1
+      - path: bassin/jambe droite
+        weight: 1
+      - path: bassin/jambe droite/tibia droit
+        weight: 1
+      - path: bassin/jambe droite/tibia droit/pied droit
+        weight: 1
+      - path: bassin/jambe gauche
+        weight: 1
+      - path: bassin/jambe gauche/tibia gauche
+        weight: 1
+      - path: bassin/jambe gauche/tibia gauche/pied gauche
+        weight: 1
+      - path: bassin/tete
+        weight: 1
+      - path: bassin/tete/bras droit
+        weight: 1
+      - path: bassin/tete/bras droit/avant bras droit
+        weight: 1
+      - path: bassin/tete/bras droit/avant bras droit/main droite
+        weight: 1
+      - path: bassin/tete/bras gauche
+        weight: 1
+      - path: bassin/tete/bras gauche/avant bras gauche
+        weight: 1
+      - path: bassin/tete/bras gauche/avant bras gauche/main gauche
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: .0199999996
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
