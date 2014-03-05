@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 737b07f156d83bc47b4030c6cdf7e6e5
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bout AR D
+    100002: Bout AR G
+    100004: Bout AV D
+    100006: Bout AV G
+    100008: Cha__ne CI001
+    100010: Cha__ne CI002
+    100012: Cha__ne CI003
+    100014: Cha__ne CI004
+    100016: Cha__ne CI005
+    100018: Cha__ne CI006
+    100020: Corps
+    100022: Cou
+    100024: Cuisse AR D
+    100026: Cuisse AR G
+    100028: Cuisse AV D
+    100030: Cuisse AV G
+    100032: Mollet AR D
+    100034: Mollet AR G
+    100036: Mollet AV D
+    100038: Mollet AV G
+    100040: Museau
+    100042: Nuque
+    100044: Patte AR D
+    100046: Patte AR G
+    100048: Patte AV D
+    100050: Patte AV G
+    100052: Queue Bout
+    100054: Queue1
+    100056: Queue2
+    100058: Queue3
+    100060: Rat
+    100062: //RootNode
+    100064: Tete
+    400000: Bout AR D
+    400002: Bout AR G
+    400004: Bout AV D
+    400006: Bout AV G
+    400008: Cha__ne CI001
+    400010: Cha__ne CI002
+    400012: Cha__ne CI003
+    400014: Cha__ne CI004
+    400016: Cha__ne CI005
+    400018: Cha__ne CI006
+    400020: Corps
+    400022: Cou
+    400024: Cuisse AR D
+    400026: Cuisse AR G
+    400028: Cuisse AV D
+    400030: Cuisse AV G
+    400032: Mollet AR D
+    400034: Mollet AR G
+    400036: Mollet AV D
+    400038: Mollet AV G
+    400040: Museau
+    400042: Nuque
+    400044: Patte AR D
+    400046: Patte AR G
+    400048: Patte AV D
+    400050: Patte AV G
+    400052: Queue Bout
+    400054: Queue1
+    400056: Queue2
+    400058: Queue3
+    400060: Rat
+    400062: //RootNode
+    400064: Tete
+    4300000: Rat
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Rat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cha__ne CI001
+        weight: 1
+      - path: Cha__ne CI002
+        weight: 1
+      - path: Cha__ne CI003
+        weight: 1
+      - path: Cha__ne CI004
+        weight: 1
+      - path: Cha__ne CI005
+        weight: 1
+      - path: Cha__ne CI006
+        weight: 1
+      - path: Corps
+        weight: 1
+      - path: Corps/Cuisse AR D
+        weight: 1
+      - path: Corps/Cuisse AR D/Mollet AR D
+        weight: 1
+      - path: Corps/Cuisse AR D/Mollet AR D/Patte AR D
+        weight: 1
+      - path: Corps/Cuisse AR D/Mollet AR D/Patte AR D/Bout AR D
+        weight: 1
+      - path: Corps/Cuisse AR G
+        weight: 1
+      - path: Corps/Cuisse AR G/Mollet AR G
+        weight: 1
+      - path: Corps/Cuisse AR G/Mollet AR G/Patte AR G
+        weight: 1
+      - path: Corps/Cuisse AR G/Mollet AR G/Patte AR G/Bout AR G
+        weight: 1
+      - path: Corps/Nuque
+        weight: 1
+      - path: Corps/Nuque/Cou
+        weight: 1
+      - path: Corps/Nuque/Cou/Tete
+        weight: 1
+      - path: Corps/Nuque/Cou/Tete/Museau
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV D
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV D/Mollet AV D
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV D/Mollet AV D/Patte AV D
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV D/Mollet AV D/Patte AV D/Bout AV D
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV G
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV G/Mollet AV G
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV G/Mollet AV G/Patte AV G
+        weight: 1
+      - path: Corps/Nuque/Cuisse AV G/Mollet AV G/Patte AV G/Bout AV G
+        weight: 1
+      - path: Corps/Queue1
+        weight: 1
+      - path: Corps/Queue1/Queue2
+        weight: 1
+      - path: Corps/Queue1/Queue2/Queue3
+        weight: 1
+      - path: Corps/Queue1/Queue2/Queue3/Queue Bout
+        weight: 1
+      - path: Rat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0199999996
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
