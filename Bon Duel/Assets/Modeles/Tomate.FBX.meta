@@ -7,10 +7,94 @@ ModelImporter:
     100002: Objet001
     100004: Objet003
     100006: //RootNode
+    100008: BoutMainD
+    100010: BoutMainG
+    100012: BoutPiedD
+    100014: BoutPiedG
+    100016: BrasD
+    100018: brasG
+    100020: Cha__ne CI002
+    100022: Cha__ne CI003
+    100024: Cha__ne CI004
+    100026: Cha__ne CI005
+    100028: Cha__ne CI006
+    100030: Cha__ne CI007
+    100032: Cha__ne CI010
+    100034: Cha__ne CI011
+    100036: Corps
+    100038: CuisseD
+    100040: CuisseG
+    100042: EpauleD
+    100044: epauleG
+    100046: MainD
+    100048: MainG
+    100050: MecheAR1
+    100052: MecheAR2
+    100054: MecheAR3
+    100056: mecheAR4
+    100058: MecheAR5
+    100060: mecheARBout
+    100062: mecheavant1
+    100064: mecheavant2
+    100066: mecheavant3
+    100068: MecheavantBout
+    100070: mecheD1
+    100072: mecheD2
+    100074: mecheDbout
+    100076: MecheG1
+    100078: MecheG2
+    100080: MecheG3
+    100082: MecheGBout
+    100084: MolletD
+    100086: MolletG
+    100088: PiedD
+    100090: PiedG
     400000: Bo__te001
     400002: Objet001
     400004: Objet003
     400006: //RootNode
+    400008: BoutMainD
+    400010: BoutMainG
+    400012: BoutPiedD
+    400014: BoutPiedG
+    400016: BrasD
+    400018: brasG
+    400020: Cha__ne CI002
+    400022: Cha__ne CI003
+    400024: Cha__ne CI004
+    400026: Cha__ne CI005
+    400028: Cha__ne CI006
+    400030: Cha__ne CI007
+    400032: Cha__ne CI010
+    400034: Cha__ne CI011
+    400036: Corps
+    400038: CuisseD
+    400040: CuisseG
+    400042: EpauleD
+    400044: epauleG
+    400046: MainD
+    400048: MainG
+    400050: MecheAR1
+    400052: MecheAR2
+    400054: MecheAR3
+    400056: mecheAR4
+    400058: MecheAR5
+    400060: mecheARBout
+    400062: mecheavant1
+    400064: mecheavant2
+    400066: mecheavant3
+    400068: MecheavantBout
+    400070: mecheD1
+    400072: mecheD2
+    400074: mecheDbout
+    400076: MecheG1
+    400078: MecheG2
+    400080: MecheG3
+    400082: MecheGBout
+    400084: MolletD
+    400086: MolletG
+    400088: PiedD
+    400090: PiedG
     2300000: Bo__te001
     2300002: Objet001
     2300004: Objet003
@@ -21,6 +105,7 @@ ModelImporter:
     4300002: Objet001
     4300004: Objet003
     9500000: //RootNode
+    13700000: Bo__te001
   materials:
     importMaterials: 1
     materialName: 0
