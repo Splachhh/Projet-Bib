@@ -71,6 +71,8 @@ public abstract class EnnemyController : MonoBehaviour
 				player.majHp(-degat);
 				m_timeLapseAttack = 0f;
 			}
+			else
+				anim.SetBool(hashID.isHitting, false);
 		}
 		else if(distance.magnitude <= m_viewDistance)
 			agent.SetDestination(player.transform.position);
