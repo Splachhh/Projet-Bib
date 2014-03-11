@@ -24,6 +24,12 @@ ModelImporter:
     100036: tete
     100038: tibia droit
     100040: tibia gauche
+    100042: bras gauche
+    100044: IK Chain001
+    100046: IK Chain002
+    100048: jambe droite
+    100050: jambe gauche
+    100052: main droite
     400000: avant bras droit
     400002: avant bras gauche
     400004: bassin
@@ -45,6 +51,12 @@ ModelImporter:
     400036: tete
     400038: tibia droit
     400040: tibia gauche
+    400042: bras gauche
+    400044: IK Chain001
+    400046: IK Chain002
+    400048: jambe droite
+    400050: jambe gauche
+    400052: main droite
     4300000: Object004
     9500000: //RootNode
     13700000: Object004

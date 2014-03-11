@@ -50,7 +50,7 @@ public class PlayerInterface : MonoBehaviour
 		m_sceneId = int.Parse (split [1]);
 
 		//Récupération du script
-		playerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+		playerScript = GameObject.Find("Players").GetComponentInChildren<PlayerController>();
 
 		//Récupéarion des vies
 		m_vegetablesLife = new int[5];
