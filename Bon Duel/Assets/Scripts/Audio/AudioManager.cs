@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AudioManager : MonoBehaviour {
+public class AudioManager : MonoBehaviour 
+{
 
 	private AudioSource audioSource;
 	public AudioClip[] Tracks;
@@ -10,7 +11,8 @@ public class AudioManager : MonoBehaviour {
 	private float delayTime;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		audioSource = GetComponent<AudioSource> ();
 		changeTrack();
 		isPlay = true;
@@ -19,7 +21,8 @@ public class AudioManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		//N'incremente pas le compteur si la musique ne se joue pas
 		if (!isPlay)
 			return;
@@ -63,5 +66,25 @@ public class AudioManager : MonoBehaviour {
 		else
 			changeTrack();
 		audioSource.Play();
+	}
+	
+	public void changePlayState()
+	{
+		isPlay = !isPlay;
+	}
+	
+	public bool getPlayState()
+	{
+		return isPlay;
+	}
+
+	public void changeVolume (float vol)
+	{
+		audioSource.volume = vol;
+	}
+
+	public float getVolume ()
+	{
+		return audioSource.volume;
 	}
 }
